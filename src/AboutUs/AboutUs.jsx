@@ -5,7 +5,7 @@ export function AboutUs() {
   console.log(location);
   return (
     <div>
-      <h1>About Us {location.state.no}</h1>
+      <h1>About Us {location.state && location.state.no}</h1>
     </div>
   );
 }
